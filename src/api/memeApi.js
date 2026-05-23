@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+const API_BASE_URL = "https://memesense-backend.onrender.com";
 
 export async function uploadImage(file) {
   const formData = new FormData();
